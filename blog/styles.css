@@ -1,0 +1,150 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/**************** end CSS RESET (ADD YOUR STYLES BELOW) *************/
+
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+
+}
+
+.container {
+    width: 1020px;
+    margin: auto;
+}
+
+header {
+    background: url("images/111.jpg") no-repeat;
+    height: 500px;
+
+}
+
+header h1 {
+    font-size: 90px;
+    line-height: 250px;
+
+		padding: 200px 0 0 390px;
+		font-family: "dancing script" ;
+}
+
+section {
+    float: left;
+    width: 652px;
+    margin-right: 10px;
+
+}
+
+aside {
+    float: right;
+    width: 340px;
+    padding: 10px 0 0 10px;
+    border: 4px solid #000;
+}
+
+footer {
+    clear: both;
+    border: 4px solid #000;
+    padding: 20px;
+}
+
+article {
+    margin-bottom: 60px;
+    border: 4px solid #000;
+    padding:10px;
+}
+
+.resources {
+    background-color: #CACACA;
+    padding: 20px;
+}
+img{
+	position: relative;
+        top: 50%;
+        left: 20%;
+			}
+
+/****Typography****/
+
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 150%;
+    margin-bottom: 16px;
+    font-family: "cantata one";
+}
+
+h3 {
+    font-size: 125%;
+    margin-bottom: 16px;
+}
+
+time {
+    display: block;
+    font-size: 85%;
+    margin-bottom: 16px;
+}
+
+p, li {
+    margin-bottom: 16px;
+    line-height: 22px;
+    font-family: "cantata one";
+
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: gray;
+}
+
+footer {
+		text-align: center;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+}
