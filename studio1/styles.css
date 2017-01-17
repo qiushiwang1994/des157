@@ -70,7 +70,6 @@ div:last-child{
 footer {
   clear: both;
 	padding: 20px 0;
-	column-count: 3;
 	text-align: center;
 	border: 4px solid #000;
 
