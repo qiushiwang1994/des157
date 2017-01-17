@@ -21,7 +21,7 @@ function draw() {
 
    if(mouseIsPressed){
 
-  fill(0);
+  fill(222);
 }
 else{
   fill(255);
