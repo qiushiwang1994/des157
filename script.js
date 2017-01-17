@@ -8,7 +8,11 @@ console.log("this is a js comment");
   size(800,250);
   background(255);
 }*/
+<<<<<<< HEAD
 var color = 222;
+=======
+
+>>>>>>> 371cc08e8995d6f9c26cf8d3354f9f812d08eb7c
 function setup() {
   var myCanvas = createCanvas(800, 250);
   myCanvas.parent('mySketch');
@@ -22,7 +26,10 @@ function draw() {
    if (mouseIsPressed){
 
   fill(222);
+<<<<<<< HEAD
   ellipse(mouseX, mouseY, 50, 50);
+=======
+>>>>>>> 371cc08e8995d6f9c26cf8d3354f9f812d08eb7c
 }
 else{
   fill(255);
