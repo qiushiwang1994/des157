@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
     function showOneTip() {
         console.log("show msg");
-        tipOne.style.opacity = 1;
+        tipOne.style.opacity = 0.6;
     }
 
     picTwo.addEventListener("mouseover", function() {
@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
     function showTwoTip() {
         console.log("show msg");
-        tipTwo.style.opacity = 1;
+        tipTwo.style.opacity = 0.6;
     }
 
     picThr.addEventListener("mouseover", function() {
@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
     function showThrTip() {
         console.log("show msg");
-        tipThr.style.opacity = 1;
+        tipThr.style.opacity = 0.6;
     }
     picFou.addEventListener("mouseover", function() {
         console.log("mouseover on picture four");
@@ -73,6 +73,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
     function showFouTip() {
         console.log("show msg");
-        tipFou.style.opacity = 1;
+        tipFou.style.opacity = 0.6;
     }
 });
