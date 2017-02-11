@@ -13,53 +13,57 @@
 #tipOne {
     opacity: 0;
     background-color: white;
-    height: 80px;
+    height: 90px;
     transform: translate(0, -100%);
     padding-left: 30px;
+    font-family: 'Kalam', cursive;
 }
 
 #tssong {
     position: relative;
-    transform: translate(0, -280%);
+    transform: translate(0, -300%);
 }
 
 #speaksong {
     position: relative;
-    transform: translate(0, -280%);
+    transform: translate(0, -300%);
 }
 
 #redsong {
     position: relative;
-    transform: translate(0, -280%);
+    transform: translate(0, -300%);
 }
 
 #lastsong {
     position: relative;
-    transform: translate(0, -280%);
+    transform: translate(0, -300%);
 }
 
 #tipTwo {
     opacity: 0;
     background-color: white;
-    height: 80px;
+    height: 90px;
     transform: translate(0, -100%);
     padding-left: 30px;
+    font-family: 'Kalam', cursive;
 }
 
 #tipThr {
     opacity: 0;
     background-color: white;
-    height: 80px;
+    height: 90px;
     transform: translate(0, -100%);
     padding-left: 30px;
+    font-family: 'Kalam', cursive;
 }
 
 #tipFou {
     opacity: 0;
     background-color: white;
-    height: 80px;
+    height: 90px;
     transform: translate(0, -100%);
     padding-left: 30px;
+    font-family: 'Kalam', cursive;
 }
 
 #albOne {
