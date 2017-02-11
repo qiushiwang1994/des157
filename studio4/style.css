@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+
+/* start all css with a reset */
+
+* {
+    margin: 0px;
+    padding: 0px
+}
+
+#tipOne {
+    opacity: 0;
+}
+
+#tipTwo {
+    opacity: 0;
+}
+
+#tipThr {
+    opacity: 0;
+}
+
+#tipFou {
+    opacity: 0;
+}
+
+#albOne {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+}
+
+#albTwo {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+}
+
+#albThr {
+    position: absolute;
+    top: 60%;
+    left: 20%;
+}
+
+#albFou {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+}
