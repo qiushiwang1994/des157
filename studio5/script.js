@@ -1,4 +1,6 @@
-// Set up the scene, camera, and renderer as global variables.
+document.addEventListener("DOMContentLoaded", function(event) {
+    console.log("DOM fully loaded and parsed");
+
 var scene, camera, renderer;
 
 init();
@@ -69,3 +71,4 @@ function animate() {
     controls.update();
 
 }
+});
