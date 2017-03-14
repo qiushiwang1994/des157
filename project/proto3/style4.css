@@ -119,3 +119,31 @@ body {
     height: 400px;
     background-size: 100% 100%;
 }
+
+#buttonIns {
+    position: absolute;
+    top: 90px;
+    left: 0;
+}
+
+#ins {
+    position: absolute;
+    top: 10%;
+    right: 20%;
+    background-color: #fff;
+
+    color: white;
+    opacity: 0.85;
+}
+
+p {
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+}
+
+#close {
+    position: absolute;
+    top: 30%;
+    right: 30px;
+}

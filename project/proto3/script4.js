@@ -42,4 +42,17 @@ document.addEventListener("DOMContentLoaded", function() {
         complete: loadApp
     });
 
+    var ins = document.getElementById("ins");
+    var buttonIns = document.getElementById("buttonIns");
+    var close = document.getElementById("close");
+
+    buttonIns.addEventListener("click", function() {
+        console.log("click button ins");
+        ins.style.display = "block";
+    });
+    close.addEventListener("click", function() {
+        console.log("close");
+        ins.style.display = "none";
+    });
+
 });

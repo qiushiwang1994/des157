@@ -1,6 +1,11 @@
 // JavaScript Document
 
 document.addEventListener("DOMContentLoaded", function() {
+
+
+
+
+
     var camera, controls;
     var renderer;
     var scene;
@@ -228,5 +233,18 @@ document.addEventListener("DOMContentLoaded", function() {
         requestAnimationFrame(animate);
 
     }
+
+    var ins = document.getElementById("ins");
+    var buttonIns = document.getElementById("buttonIns");
+    var close = document.getElementById("close");
+
+    buttonIns.addEventListener("click", function() {
+        console.log("click button ins");
+        ins.style.display = "block";
+    });
+    close.addEventListener("click", function() {
+        console.log("close");
+        ins.style.display = "none";
+    });
 
 });
