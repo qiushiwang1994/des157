@@ -64,12 +64,13 @@ table {
     opacity: 1.0;
 }
 
-#buttonBook, #buttonMap, #logo,#buttonBack{
+#buttonBook, #buttonMap, #logo{
     display: block;
     margin: 20px auto;
 }
 #buttonBack{
-  margin-top: 40px;
+  display: block;
+  margin: 40px auto;
 }
 
 html {
