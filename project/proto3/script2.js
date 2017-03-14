@@ -37,4 +37,6 @@ document.addEventListener("DOMContentLoaded", function() {
         buttonTipB.style.opacity = 0.5;
     }
 
+
+
 });
