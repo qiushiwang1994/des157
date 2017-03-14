@@ -68,20 +68,15 @@ table {
     display: block;
     margin: 20px auto;
 }
+#buttonBack{
+  margin-top: 40px;
+}
 
 html {
     background-image: url("image/backGround.png");
     background-size: 150% 150%;
 }
 
-footer a {
-    color: white;
-    opacity: 0.80;
-}
-
-footer a:hover {
-    opacity: 1.0;
-}
 
 p {
     position: relative;
