@@ -131,7 +131,7 @@ body {
     top: 10%;
     right: 20%;
     background-color: #fff;
-
+    display: none;
     color: white;
     opacity: 0.85;
 }
