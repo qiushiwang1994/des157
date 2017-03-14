@@ -8,8 +8,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
         var flipbook = $('.flipbook');
 
-        // Check if the CSS was already loaded
-
         if (flipbook.width() == 0 || flipbook.height() == 0) {
             setTimeout(loadApp, 10);
             return;
@@ -17,18 +15,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
         $('.flipbook .double').scissor();
 
-        // Create the flipbook
-
         $('.flipbook').turn({
-            // Elevation
-
             elevation: 50,
 
-            // Enable gradients
-
             gradients: true,
-
-            // Auto center this flipbook
 
             autoCenter: true
 
@@ -41,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function() {
         both: ['js/scissor.min.js', 'style4.css'],
         complete: loadApp
     });
-
+    //
     var ins = document.getElementById("ins");
     var buttonIns = document.getElementById("buttonIns");
     var close = document.getElementById("close");
