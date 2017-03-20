@@ -63,20 +63,19 @@ table {
 }
 
 html {
-    background-image: url("image/backGround.png");
-    background-size: 150% 150%;
+    background-image: url("../final/image/story_1.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-footer{
-  text-align: center;
+a{
+  color: white;
+  opacity: 0.7;
 }
-footer a {
-    color: white;
-    opacity: 0.80;
+a:hover{
+  opacity: 1;
 }
 
-footer a:hover {
-    opacity: 1.0;
-}
 
 p {
     position: relative;
