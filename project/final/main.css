@@ -53,10 +53,9 @@ a img:hover {
 
 html, body {
     height: 100%;
-
     background-attachment: fixed;
     background-position: center;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
     bottom: 0;
     height: 100%;
@@ -71,7 +70,8 @@ body {
     background-image: url("image/story_1.jpg");
     background-attachment: fixed;
     background-position: center;
-    background-repeat: no-repeat;;
+    background-repeat: no-repeat;
+    ;
     background-size: cover;
     bottom: 0;
     height: 100%;

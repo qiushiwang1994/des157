@@ -56,7 +56,8 @@ html, body {
 .story {
     background-attachment: fixed;
     background-position: center;
-    background-repeat: no-repeat;;
+    background-repeat: no-repeat;
+    ;
     background-size: cover;
     bottom: 0;
     height: 100%;
@@ -163,7 +164,8 @@ html, body {
     right: 30px;
     color: black;
 }
-p{
-  font-family: 'Alegreya', serif;
-  font-size: 40px;
+
+p {
+    font-family: 'Alegreya', serif;
+    font-size: 40px;
 }
